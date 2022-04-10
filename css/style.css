@@ -1,0 +1,221 @@
+body{
+    background-color: #141516;
+}
+@font-face {
+    font-family: sonyfont;
+    src: url("/font/ClarendonRegular.otf");
+}
+.dropdown-toggle,
+.dropdown-menu{
+    border-radius: 5px !important;
+}
+.dropdown-item:hover{
+    color: white;
+    background-color: #343a40;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.title{
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.carousel-caption{
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size:25px;
+    font-weight:300;
+}
+.carousel-item{
+    height: 95vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+#carouselhome .carousel-item:before{
+    content: "";
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #141516;
+    height: 95vh;
+    opacity: 0.7;
+}
+.card{
+    box-shadow: 1px 3px 10px rgb(150, 146, 146);
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-img-top{
+    box-shadow: 0px 0px 3px rgb(150, 146, 146);
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    font-size: small;
+}
+.history-ibuki{
+    box-shadow: 1px 3px 10px rgb(150, 146, 146);
+    transition: transform .2s;
+    margin-top: 20px;
+}
+.history-ibuki:hover{
+    transform: scale(1.05);
+}
+.img-profile{
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.text-profile{
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+#map {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: 400px;
+    width: 400px;
+}
+.values{
+    text-align: center; 
+    font-size: larger;
+}
+#desc{
+    font-size: medium;
+    text-align: center;
+    margin-top: -10px;
+}
+.product-img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.product-text-1{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-text-2{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#carousel1 .carousel-item {
+    width: 100%;
+    height: auto;
+}
+#carousel2 .carousel-item{
+    width: 100%;
+    height: auto;
+}
+#carousel3 .carousel-item{
+    width: 120%;
+    height: auto;
+}
+#carousel1 .carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #141516;
+}
+#carousel2 .carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #141516;
+}
+#carousel3 .carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #141516;
+}
+@media only screen and (max-width: 1920px) {
+    #carouselhome .carousel-caption{
+        bottom: 400px;
+    }
+    #carouselhome .carousel-caption h5{
+        font-size: 60px;
+    }
+    #carouselhome .carousel-caption p{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 1660px) {
+    #carouselhome .carousel-caption{
+        bottom: 230px;
+    }
+    #carouselhome .carousel-caption h5{
+        font-size: 50px;
+    }
+    #carouselhome .carousel-caption p{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #carouselhome .carousel-caption{
+        bottom: 210px;
+    }
+    #carouselhome .carousel-caption h5{
+        font-size: 45px;
+    }
+    #carouselhome .carousel-caption p{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #carouselhome .carousel-item{
+        height: 80vh;
+    }
+    #carouselhome .carousel-caption{
+        bottom: 140px;
+    }
+    #carouselhome .carousel-caption h5{
+        font-size: 40px;
+    }
+    #carouselhome .carousel-caption p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #carouselhome .carousel-item{
+        height: 70vh;
+    }
+    #carouselhome .carousel-caption{
+        bottom: 80px;
+    }
+    #carouselhome .carousel-caption h5{
+        font-size: 38px;
+    }
+    #carouselhome .carousel-caption p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 400px){
+    #carouselhome .carousel-item{
+        height: 20vh;
+    }
+    #carouselhome .carousel-caption h5{
+        font-size: 20px;
+    }
+    #caraouselhome .caraousel-caption p{
+        font-size: 10px;
+    }
+}
